@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "{ed5a7bc5-1b22-454b-80a9-5835399654cf}": {
+      "updates": [
+        {
+          "version": "0.1",
+          "update_link": "https://github.com/arnerak/youtube-unrestrict/releases/download/0.1/youtube_unrestrict-0.1-fx.xpi"
+        }
+      ]
+    }
+  }
+}
