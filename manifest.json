@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube Unrestrict",
+  "version": "0.1",
+
+  "description": "Bypasses youtube age restriction.",
+
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/watch*"],
+      "js": ["unrestrict.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
